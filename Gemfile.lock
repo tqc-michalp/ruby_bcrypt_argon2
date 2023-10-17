@@ -1,0 +1,29 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    argon2 (2.3.0)
+      ffi (~> 1.15)
+      ffi-compiler (~> 1.0)
+    bcrypt (3.1.19)
+    benchmark (0.2.1)
+    ffi (1.16.3)
+    ffi-compiler (1.0.1)
+      ffi (>= 1.0.0)
+      rake
+    json (2.6.3)
+    rake (13.0.6)
+
+PLATFORMS
+  x86_64-linux
+
+DEPENDENCIES
+  argon2
+  bcrypt (= 3.1.19)
+  benchmark
+  json
+
+RUBY VERSION
+   ruby 2.7.5p203
+
+BUNDLED WITH
+   2.4.19
